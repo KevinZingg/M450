@@ -7,16 +7,20 @@ Arbeiten Sie zu zweit und erstellen Sie mind. drei Beispiele, die Sie aus der Pr
 Wie werden die Tests durchgeführt?
 
 
-Unit Test (Einzelmodultest):
+Unit Test (Einzelmodultest?):
 
-Beschreibung: Testet einzelne Komponenten oder Funktionen isoliert von anderen Teilen des Systems.
+Testet einzelne Komponenten oder Funktionen isoliert von anderen Teilen des Systems.
 Beispiel aus der Praxis: Ein Entwickler schreibt eine Funktion, die zwei Zahlen addiert. Ein Unit Test könnte diese Funktion testen, indem er sicherstellt, dass die Summe korrekt berechnet wird.
 Durchführung: Meistens mit speziellen Frameworks wie JUnit (für Java) oder NUnit (für .NET). Der Test wird automatisiert und regelmäßig durchgeführt, um sicherzustellen, dass Änderungen im Code die Funktionalität nicht beeinträchtigen.
+
+
 Integrationstest:
 
-Beschreibung: Testet die Interaktion zwischen verschiedenen Komponenten oder Systemen.
+Testet die Interaktion zwischen verschiedenen Komponenten oder Systemen.
 Beispiel aus der Praxis: Ein Online-Shop hat eine Datenbank und ein Frontend. Ein Integrationstest könnte überprüfen, ob das Frontend korrekt mit der Datenbank kommuniziert, um Produktinformationen abzurufen.
 Durchführung: Kann manuell oder automatisiert durchgeführt werden. Bei automatisierten Tests werden oft Mocks oder Stubs verwendet, um externe Systeme zu simulieren.
+
+
 Systemtest:
 
 Beschreibung: Testet das gesamte System als Ganzes, oft aus der Perspektive des Endbenutzers.
