@@ -1,3 +1,35 @@
 unit-testing
 
+1. Gründe für das Testen einer Applikation:
+   - Qualitätssicherung: Durch Tests wird sichergestellt, dass die Software die gewünschte Qualität hat und den Anforderungen entspricht.
+   - Fehlererkennung: Tests helfen, Fehler und Probleme in der Software frühzeitig zu erkennen und zu beheben.
+   - Performance-Überprüfung: Tests können die Leistung und Reaktionszeit einer Anwendung überprüfen.
+   - Benutzerzufriedenheit: Durch das Testen kann sichergestellt werden, dass die Software benutzerfreundlich ist und den Erwartungen der Endbenutzer entspricht.
+   - Risikominderung: Das Testen reduziert das Risiko von Ausfällen und Problemen nach der Veröffentlichung.
+
+2. Unterschied zwischen einem Fehler und einem Mangel:
+   - Fehler (Bug): Ein Fehler ist ein konkretes Problem im Code, das zu einem unerwünschten Verhalten führt.
+   - Mangel (Defekt): Ein Mangel ist eine Abweichung von den Anforderungen oder Erwartungen.
+
+3. Fehlermaskierung:
+   - Dies bezieht sich auf eine Situation, in der ein Fehler (Bug) einen anderen Fehler verdeckt.
+
+4. Wieso ein vollständiges Testen nicht möglich ist:
+   - Es gibt unendlich viele Kombinationen von Eingabedaten und Umgebungsbedingungen.
+   - Einige Fehler treten nur unter sehr spezifischen Bedingungen auf.
+   - Das Testen aller möglichen Pfade und Zustände wäre zeit- und kostenintensiv.
+
+5. Kriterien für gute Testfälle:
+   - Repräsentativität: Der Testfall sollte typische Nutzungsszenarien abdecken.
+   - Vollständigkeit: Er sollte alle wichtigen Funktionen und Features testen.
+   - Wiederholbarkeit: Der Testfall sollte konsistente Ergebnisse liefern.
+   - Klarheit: Er sollte klar und verständlich sein.
+
+6. SW-Vorgehensmodelle:
+   - Es gibt Modelle wie das Wasserfallmodell, das Spiralmodell, das V-Modell, Agile Modelle (z.B. Scrum) und mehr.
+
+7. Arten von Tests den jeweiligen SW-Vorgehensmodellen zuordnen:
+   - Wasserfallmodell: Tests am Ende des Entwicklungsprozesses.
+   - Agile Modelle: Tests kontinuierlich während des Entwicklungsprozesses (z.B. Unit Tests, Integrationstests).
+   - V-Modell: Jedes Entwicklungsstadium hat ein entsprechendes Teststadium.
 
