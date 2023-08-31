@@ -39,3 +39,35 @@
 ### Testfall 10: Mobile Responsiveness
 - **Beschreibung**: Überprüfung, ob die Website auf verschiedenen Geräten und Bildschirmgrössen korrekt angezeigt wird.
 - **Erwartetes Ergebnis**: Korrekte Darstellung auf verschiedenen Geräten.
+
+
+### Aufgabe 3
+
+- ### Blackbox ###
+
+1. Kann Konto erstellen
+2. Kann wechselkurs abfragen
+3. Kann ID von Konto angeben und bekommt angaben der Person
+4. Kann 2 Mal Konto mit gleichen Namen erstellen
+5. Kann Programm beenden
+
+
+- ### Whitebox ###
+
+1. In der Klasse Account auf der Zeile 53 wird Geld subtrahiert wenn User dies auswählt.
+
+2. In der Klasse Bank auf Zeile 25 wird der ausgewählte account gelöscht
+
+3. In der Klasse Bank auf der Zeile 14-15 wird ein Account mit den benötigten Feldern / Werten erstellt
+
+4. In der Klasse Counter auf der Zeile 43 kommt eine Error-meldung wenn der User etwas ungültiges bei der Eingabe eingibt. (Funktioniert nicht immer... wenn am Anfang ein Gültiger Buchstabe ist aber trotzdem ungültig ist z.B. "aqwertzuio" dann kommt die Meldung nicht.)
+
+5. In der Klasse ExchangeRateOkhttp wird in den Zeilen 26 - 30 der aktuelle Kurs geholt sofern er aufgerufen wird.
+
+- ### Verbesserungen ###
+
+1. API Key könnte man in einem seperatem File speichern für extra Sicherheit
+
+2. Das Programm ist zwar simple, könnte aber trotzdem mehr kommentare benötigen.
+
+3. Eine Anleitung um das Programm zu starten wäre schön gewesen.
