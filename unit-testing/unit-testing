@@ -19,7 +19,7 @@ unit-testing
    - Einige Fehler treten nur unter sehr spezifischen Bedingungen auf.
    - Das Testen aller möglichen Pfade und Zustände wäre zeit- und kostenintensiv.
 
-5. Kriterien für gute Testfälle:
+5. Kriterien für gute Testfälle:.
    - Repräsentativität: Der Testfall sollte typische Nutzungsszenarien abdecken.
    - Vollständigkeit: Er sollte alle wichtigen Funktionen und Features testen.
    - Wiederholbarkeit: Der Testfall sollte konsistente Ergebnisse liefern.
