@@ -53,8 +53,21 @@ public class AccountTests {
      * Testet das Abheben von einem Konto.
      */
     @Test
-    public void testWithdraw() {
-        fail("toDo");
+    public void testWithdraw(){
+        // Initialize a new Account
+        Account testAccount = new SavingsAccount("test123");
+
+        // Deposit an amount to the account
+        long depositAmount = 1000;
+        testAccount.deposit(20230907, depositAmount);
+
+        // Add an amount to the account
+        long withdrawnAmount = 500;
+        testAccount.withdraw(20230907, withdrawnAmount);
+
+        // Check result
+        assertEquals(depositAmount - withdrawnAmount, testAccount.getBalance(), "Gut!");
+
     }
 
     /**
