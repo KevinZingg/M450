@@ -1,0 +1,21 @@
+{% extends 'index.html' %}
+
+{% block title %} Search: {{ domain }} {% endblock %}
+
+{% block content %}
+
+
+    <h1 class="site-title">Information about <u>{{ w['Domain:'] }}</u></h1>
+
+    <p class="site-text" style="background: {{ creation_date_color }};">Sicherheitslevel: {{ creation_date_text }}</p>
+    <p class="site-text">Registrar: {{ w['Registrar:'] }}</p>
+    <p class="site-text">Registrant: {{ w['Country:'] }}</p>
+    <p class="site-text">Creation date: {{ w['Registered On:'] }}</p>
+    <p class="site-text">{{ creation_date_expl }}</p>
+
+
+
+
+    <a href="/melden" class="btn">Diese Seite melden?</a>
+
+{% endblock %}

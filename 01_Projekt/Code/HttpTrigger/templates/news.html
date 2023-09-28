@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+
+{% block title %}News{% endblock %}
+
+{% block content %}
+    <h1 class="site-title">News</h1>
+    <p class="site-text">Welcome to the news page.</p>
+    <p>Roles { { user.roles } }</p>
+    <p>User {{ request.state.user.dict() }}</p>
+{% endblock %}
